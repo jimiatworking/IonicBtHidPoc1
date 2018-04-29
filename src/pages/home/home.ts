@@ -33,9 +33,10 @@ export class HomePage {
       onComplete: function(barcode, qty) {
         let validScan = true;
 
-        $("#scannerInput").val(barcode);
-        var newTemp = $("#pnlBarcodeList").text() + barcode;
-        $("#pnlBarcodeList").text(newTemp);
+        // $("#scannerInput").val(barcode);
+        // var newTemp = $("#pnlBarcodeList").text() + barcode;
+        // $("#pnlBarcodeList").text(newTemp);
+        $("#pnlBarcodeList").text(barcode);
 
         //https://stackoverflow.com/questions/26790990/html-input-always-in-focus?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa
       }, // main callback function	,
