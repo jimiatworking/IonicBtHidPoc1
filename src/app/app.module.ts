@@ -7,12 +7,13 @@ import { StatusBar } from "@ionic-native/status-bar";
 
 import { MyApp } from "./app.component";
 import { HomePage } from "../pages/home/home";
+import { LastPage } from "../pages/last/last";
 
 @NgModule({
-  declarations: [MyApp, HomePage, NextPage],
+  declarations: [MyApp, HomePage, NextPage, LastPage],
   imports: [BrowserModule, IonicModule.forRoot(MyApp)],
   bootstrap: [IonicApp],
-  entryComponents: [MyApp, HomePage, NextPage],
+  entryComponents: [MyApp, HomePage, NextPage, LastPage],
   providers: [
     StatusBar,
     SplashScreen,

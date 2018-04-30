@@ -13,9 +13,9 @@ export class HomePage {
     //   // Here you can do any higher level native things you might need.
     // });
   }
+
+  ionViewDidLoad() {}
   toNextPage() {
     this.navCtrl.push(NextPage, {});
   }
-
-  ionViewDidLoad() {}
 }
